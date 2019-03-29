@@ -1,0 +1,16 @@
+{
+  "name": "reveal-md-multifile",
+  "version": "1.0.0",
+  "description": "Example project implementing reveal-md preprocessor to use multiple files",
+  "main": "index.js",
+  "repository": "https://github.com/bukowskiadam/reveal-md-multifile",
+  "author": "Adam Bukowski",
+  "license": "MIT",
+  "scripts": {
+    "start": "reveal-md slides/index.md",
+    "dev": "reveal-md slides/index.md -w"
+  },
+  "dependencies": {
+    "reveal-md": "^3.0.4"
+  }
+}
