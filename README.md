@@ -16,9 +16,11 @@ You can find sample in the [slides directory](/slides).
 ## Run
 
 ```
-yarn
-yarn start
+npm i
+npm start
 ```
+
+*Tested with node 16*
 
 
 [reveal-md]: https://github.com/webpro/reveal-md
