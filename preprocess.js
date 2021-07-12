@@ -2,7 +2,7 @@ const { readFileSync } = require('fs');
 const path = require('path');
 
 const LINE_SEPARATOR = '\n';
-const FILE_REF_REGEX = /^FILE: (.+)$/;
+const FILE_REF_REGEX = /^FILE: (.+)\r?$/;
 
 const isFileReference = (line) => FILE_REF_REGEX.test(line);
 const loadFileContent = (line, basePath) => {
