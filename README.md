@@ -10,6 +10,9 @@ Before reveal-md 3.0 there was an options value with slides directory.
 Since 3.0 there isn't, so I have added my own into reveal-md.json `includeDir`.
 It is used as a base path for includes.
 
+## Sample slides
+
+You can find sample in the [slides directory](/slides).
 ## Run
 
 ```
