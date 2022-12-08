@@ -11,6 +11,6 @@
     "dev": "reveal-md slides/index.md -w"
   },
   "dependencies": {
-    "reveal-md": "^5.1.2"
+    "reveal-md": "^5.4.0"
   }
 }
